@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/usr/bin/python3
 
 import numpy #import numpy for getting random numbers for the rows
 import sys #import sys for standard input
