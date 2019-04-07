@@ -1,2 +1,2 @@
-#!/usr/bin/env/bash
+#!/bin/bash
 cat data.csv | ./dom.py >> run.out
