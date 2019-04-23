@@ -1,4 +1,4 @@
-#!/usr/bin/java
+#!/usr/bin/java --source 11
 import java.util.Iterator;
 import java.util.Random;
 
@@ -10,9 +10,9 @@ import java.util.Random;
  *
  */
 
-public class MonteCarlo {
+public class monte_carlo {
 
-    /** Attribute object defined in original MonteCarlo code */
+    /** Attribute object defined in original code */
     private static Attribute                pomposity      = new Attribute();
     /** Attribute object defined in original MonteCarlo code */
     private static Attribute                learning_curve = new Attribute();
@@ -59,7 +59,7 @@ public class MonteCarlo {
      * Constructor of MonteCarlo instance, initializes values of each Attribute
      * object
      */
-    public MonteCarlo () {
+    public monte_carlo () {
         pomposity.min = 0;
         pomposity.max = 1;
         pomposity.name = "pomposity";
@@ -126,7 +126,7 @@ public class MonteCarlo {
      * @param mc
      *            Instance of MonteCarlo being used
      */
-    public static void generator ( final MonteCarlo mc ) {
+    public static void generator ( final monte_carlo mc ) {
 
         mc.items = new Attribute[] { pomposity, learning_curve, optimism, atleast, done_percent, sDR_param1, sDR_param2,
                 d, ep, nprod, np, ts, to, r }; // initializes the array holding
@@ -194,7 +194,7 @@ public class MonteCarlo {
      */
     public static void main ( final String[] args ) {
 
-        final MonteCarlo mc = new MonteCarlo(); // initializes instance of
+        final monte_carlo mc = new monte_carlo(); // initializes instance of
                                                 // MonteCarlo
 
         repeats = Integer.parseInt( args[1] );
