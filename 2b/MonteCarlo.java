@@ -1,6 +1,4 @@
-
-// #! /usr/bin/java
-
+#!/usr/bin/java
 import java.util.Iterator;
 import java.util.Random;
 
