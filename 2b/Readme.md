@@ -13,4 +13,4 @@ arguments:
   -v, --verbose Verbose mode
 ```
 ## Example to run this: 
-./monte_carlo -n 2000 -s 1729 -v False
+`./monte_carlo -n 2000 -s 1729 -v False
