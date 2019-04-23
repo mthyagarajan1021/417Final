@@ -1,6 +1,6 @@
 In order to run this project, make sure you have CodeAnywhere with java installed in it.
 
-![](https://files.slack.com/files-pri/TF90DDZRU-FHT327SFM/image.png)
+![image](https://user-images.githubusercontent.com/46941451/56618539-e4ff3e00-65f0-11e9-9b65-87bc0f0666f2.png)
 
 Instructions to run this file:
 arguments:
